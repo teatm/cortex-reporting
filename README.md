@@ -24,5 +24,6 @@ parameters:
 - The generated python scripts will be copied to `gs://<targetBucket>/dags`
 - The generated SQL scripts will be copied to `gs://<targetBucket>/data/bq_data_replication`
 
+# Target Bucket
 `targetBucket` - is a GCS bucket created for holding the DAG python scripts and SQL scripts
 (`targetBucket` in `config/config.json`).
